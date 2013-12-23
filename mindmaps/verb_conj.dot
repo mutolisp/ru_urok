@@ -1,8 +1,8 @@
 digraph "verb_conj" {
     rankdir=LR;
-    size="12,8";
+    size="12,24";
     labelloc="t";
-    label="Russian verb conjugations";
+    label="Russian verb conjugations cheatsheet";
     fontsize="36";
     node [shape=plaintext fontsize=18 arrowhead=none];
     splines="compound";
@@ -10,13 +10,13 @@ digraph "verb_conj" {
     node_type1a [
      label=<
     <table border="0" cellborder="1" cellspacing="0.5">
-      <tr bottom-border="1">
-        <td align="center" bgcolor="#00CCFF" port="a">НСВ</td>
-        <td align="center" bgcolor="#0099FF" port="b">СВ</td></tr>
+      <tr><td colspan="2" bgcolor="#FF6600">Conj. 1 (a)</td></tr>
+      <tr><td align="center" port="a">НСВ</td>
+        <td align="center" port="b">СВ</td></tr>
       <tr><td port="c" align="right" href="http://en.wiktionary.org/wiki/гулять#Conjugation"><font color="blue">гуля́</font>ть</td>
           <td port="d" align="right" href="http://en.wiktionary.org/wiki/погулять#Conjugation"><font color="seagreen">по</font><font color="blue">гуля́</font>ть</td></tr>
-      <tr><td port="e" align="right" href="http://en.wiktionary.org/wiki/гелать#Conjugation"><font color="blue">дéла</font>ть</td>
-          <td port="f" align="right" href="http://en.wiktionary.org/wiki/сгелать#Conjugation"><font color="seagreen">с</font><font color="blue">дéла</font>ть</td></tr>
+      <tr><td port="e" align="right" href="http://en.wiktionary.org/wiki/делать#Conjugation"><font color="blue">дéла</font>ть</td>
+          <td port="f" align="right" href="http://en.wiktionary.org/wiki/сделать#Conjugation"><font color="seagreen">с</font><font color="blue">дéла</font>ть</td></tr>
       <tr><td port="g" align="right" href="http://en.wiktionary.org/wiki/забывать#Conjugation"><font color="blue">забы</font><font color="seagreen">вá</font>ть</td>
           <td port="h" align="right" href="http://en.wiktionary.org/wiki/завыть#Conjugation"><font color="blue">забы́</font>ть</td></tr>
       <tr><td port="i" align="right" href="http://en.wiktionary.org/wiki/знать#Conjugation"><font color="blue">знá</font>ть</td>
@@ -38,9 +38,9 @@ digraph "verb_conj" {
      node_type1b [
      label=<
     <table border="0" cellborder="1" cellspacing="0.5">
-      <tr bottom-border="1">
-        <td align="center" bgcolor="#00CCFF" port="a">НСВ</td>
-        <td align="center" bgcolor="#0099FF" port="b">СВ</td></tr>
+      <tr><td colspan="2" bgcolor="#FFCC66">Conj. 1 (b)</td></tr>
+      <tr><td align="center" port="a">НСВ</td>
+        <td align="center" port="b">СВ</td></tr>
       <tr><td port="c" align="right"><font color="blue">препода</font><font color="seagreen">вá</font>ть<br/>
 1:{→ю́}, 3s:{→ю́т}</td>
           <td port="d" align="right"><font color="blue">преподá</font>ть<br/>
@@ -52,9 +52,9 @@ irregular</td></tr>
     node_type1c [
      label=<
     <table border="0" cellborder="1" cellspacing="0.5">
-      <tr bottom-border="1">
-        <td align="center" bgcolor="#00CCFF" port="a">НСВ</td>
-        <td align="center" bgcolor="#0099FF" port="b">СВ</td></tr>
+      <tr><td colspan="2" bgcolor="#FFFFCC">Conj. 1 (c)</td></tr>
+      <tr><td align="center" port="a">НСВ</td>
+        <td align="center" port="b">СВ</td></tr>
       <tr><td port="c" align="right"><font color="blue">писá</font>ть<br/>
 現:{с→ш,}, 1:{у→у́}</td>
           <td port="d" align="right"><font color="seagreen">на</font><font color="blue">писá</font>ть<br/>
@@ -65,8 +65,9 @@ irregular</td></tr>
     conj1 [
      label=<
     <table border="0" cellborder="1" cellspacing="0" border-spacing="0">
-      <tr><td port="a" bgcolor="#FF6600" colspan="2"><font color="white">現在時(НСВ)/未來時(СВ)</font></td>
-          <td colspan="2" bgcolor="#FF6600AA"><font color="white">過去時</font></td></tr>
+      <tr><td colspan="4" bgcolor="#FF6600">Conj. 1(a)</td></tr>
+      <tr><td port="a" colspan="2">現在時(НСВ)/未來時(СВ)</td>
+          <td colspan="2">過去時</td></tr>
       <tr><td align="right">я[1]</td>  <td align="left">ю</td>
           <td align="right">он</td><td align="left">л</td></tr>
       <tr><td align="right">ты[2]</td> <td align="left">ешь</td>
@@ -84,8 +85,9 @@ irregular</td></tr>
     conj1b [
      label=<
     <table border="0" cellborder="1" cellspacing="0" border-spacing="0">
-      <tr><td port="a" bgcolor="#FFCC66" colspan="2">現在時(НСВ)/未來時(СВ)</td>
-          <td colspan="2" bgcolor="#FFCC66AA">過去時</td></tr>
+      <tr><td colspan="4" bgcolor="#FFCC66">Conj. 1(b)</td></tr>
+      <tr><td port="a" colspan="2">現在時(НСВ)/未來時(СВ)</td>
+          <td colspan="2">過去時</td></tr>
       <tr><td align="right">я[1]</td>  <td align="left">ю</td>
           <td align="right">он</td><td align="left">л</td></tr>
       <tr><td align="right">ты[2]</td> <td align="left">ёшь</td>
@@ -105,8 +107,9 @@ irregular</td></tr>
     conj1c [
      label=<
     <table border="0" cellborder="1" cellspacing="0" border-spacing="0">
-      <tr><td port="a" bgcolor="#FFFFCC" colspan="2">現在時(НСВ)/未來時(СВ)</td>
-          <td colspan="2" bgcolor="#FFFFCCAA">過去時</td></tr>
+      <tr><td colspan="4" bgcolor="#FFFFCC">Conj. 1 (c)</td></tr>
+      <tr><td port="a" colspan="2">現在時(НСВ)/未來時(СВ)</td>
+          <td colspan="2">過去時</td></tr>
       <tr><td align="right">я[1]</td>  <td align="left">у</td>
           <td align="right">он</td><td align="left">л</td></tr>
       <tr><td align="right">ты[2]</td> <td align="left">ешь</td>
@@ -120,13 +123,12 @@ irregular</td></tr>
     </table>>
       ]
 
-
-
     conj2 [
      label=<
     <table border="0" cellborder="1" cellspacing="0" border-spacing="0">
-      <tr><td port="a" bgcolor="#009900" colspan="2"><font color="white">現在時(НСВ)/未來時(СВ)</font></td>
-          <td colspan="2" bgcolor="#009900AA"><font color="white">過去時</font></td></tr>
+      <tr><td colspan="4" bgcolor="#009900">Conj 2(a)</td></tr>
+      <tr><td port="a" colspan="2">現在時(НСВ)/未來時(СВ)</td>
+          <td colspan="2">過去時</td></tr>
       <tr><td align="right">я[1]</td>  <td align="left">ю</td>
           <td align="right">он</td><td align="left">л</td></tr>
       <tr><td align="right">ты[2]</td> <td align="left">ишь</td>
@@ -161,8 +163,9 @@ irregular</td></tr>
      conj2b [
      label=<
     <table border="0" cellborder="1" cellspacing="0" border-spacing="0">
-      <tr><td port="a" bgcolor="#00CC66" colspan="2">現在時(НСВ)/未來時(СВ)</td>
-          <td colspan="2" bgcolor="#00CC66AA">過去時</td></tr>
+      <tr><td bgcolor="#00CC66" colspan="4">Conj. 2(b)</td></tr>
+      <tr><td port="a" colspan="2">現在時(НСВ)/未來時(СВ)</td>
+          <td colspan="2">過去時</td></tr>
       <tr><td align="right">я[1]</td>  <td align="left">у</td>
           <td align="right">он</td><td align="left">л</td></tr>
       <tr><td align="right">ты[2]</td> <td align="left">ишь</td>
@@ -176,22 +179,17 @@ irregular</td></tr>
     </table>>
       ]
 
-
-
-
-
-
     node_type2 [
      label=<
     <table border="0" cellborder="1" cellspacing="0.5">
-      <tr bottom-border="1">
-        <td align="center" bgcolor="#00CCFF" port="a">НСВ</td>
-        <td align="center" bgcolor="#0099FF" port="b">СВ</td></tr>
+      <tr><td colspan="2" bgcolor="#009900">Conj. 2(a)</td></tr>
+      <tr><td align="center" port="a">НСВ</td>
+        <td align="center" port="b">СВ</td></tr>
       <tr><td port="c" align="right" href="http://en.wiktionary.org/wiki/готовить#Conjugation"><font color="blue">готó</font><font color="red">в</font>ить<br/>
 1s: {в→вл}</td>
           <td port="d" align="right" href="http://en.wiktionary.org/wiki/приготовить#Conjugation"><font color="seagreen">при</font><font color="blue">готó</font><font color="red">в</font>ить
 <br/>1s: {в→вл}</td></tr>
-      <tr><td port="c" align="right" href="http://en.wiktionary.org/wiki/смотреть#Conjugation"><font color="blue">смотр</font>éть<br/>
+      <tr><td port="c" align="right" href="http://en.wiktionary.org/wiki/смотреть#Conjugation" alt="smo"><font color="blue">смотр</font>éть<br/>
 1: {ю́}<br/>
 2,3,1s,2s,3s: {ó}<br/>
 </td>
@@ -204,9 +202,10 @@ irregular</td></tr>
     node_type2b [
      label=<
     <table border="0" cellborder="1" cellspacing="0.5">
-      <tr bottom-border="1">
-        <td align="center" bgcolor="#00CCFF" port="a">НСВ</td>
-        <td align="center" bgcolor="#0099FF" port="b">СВ</td></tr>
+        <tr><td bgcolor="#00CC66" colspan="2">Conj. 2(b)</td></tr>
+        <tr>
+        <td align="center" port="a">НСВ</td>
+        <td align="center" port="b">СВ</td></tr>
           <tr><td port="c" align="right"><font color="blue">си</font><font color="red">д</font>éть
 <br/>1:{д→жу́}</td>
           <td port="e" align="right"><font color="seagreen">по</font><font color="blue">си</font><font color="red">д</font>éть</td></tr>
@@ -217,13 +216,13 @@ irregular</td></tr>
     node_type2c [
      label=<
     <table border="0" cellborder="1" cellspacing="0.5">
-      <tr bottom-border="1">
-        <td align="center" bgcolor="#00CCFF" port="a">НСВ</td>
-        <td align="center" bgcolor="#0099FF" port="b">СВ</td></tr>
-      <tr><td port="c" align="right"><font color="blue">л</font><font color="red">ю</font><font color="blue">б</font>и́ть
+      <tr>
+        <td align="center" port="a">НСВ</td>
+        <td align="center" port="b">СВ</td></tr>
+      <tr><td port="c" align="right" href="http://en.wiktionary.org/wiki/любить#Conjugation"><font color="blue">л</font><font color="red">ю</font><font color="blue">б</font>и́ть
 <br/>1: {б→блю́},
 <br/>2,3,1s,2s,3s: {<font color="red">ю→ю́</font>}</td>
-          <td port="d" align="right"><font color="seagreen">по</font><font color="blue">люб</font>и́ть
+          <td port="d" align="right" href="http://en.wiktionary.org/wiki/полюбить#Conjugation"><font color="seagreen">по</font><font color="blue">люб</font>и́ть
 <br/>1: {б→блю́},
 <br/>2,3,1s,2s,3s: {<font color="red">ю→ю́</font>}</td></tr>
    </table>>
@@ -233,31 +232,24 @@ irregular</td></tr>
         label="<f0> НСВ|гуля́ть(散步)\rдéлать()\rду́мать\rзабывáть\rзнáть\rрабóтать\rразговáривать\rслу́шать\rчитáть\r"];
     
     */
-    "1(a)"
 
     subgraph "cluster1" {
         style=dashed;
         label="Conjugation 1";
         fontsize="26";
-        "1(a)" [shape=box arrowhead=none style=filled color="black" fillcolor="#FF6600"];
-        "1(b)" [shape=box arrowhead=none style=filled color="black" fillcolor="#FFCC66"];
-        "1(c)" [shape=box arrowhead=none style=filled color="black" fillcolor="#FFFFCC"];
-        "1(a)" -> node_type1a:a [arrowhead=none];
-        "1(b)" -> node_type1b:a [arrowhead=none];
-        "1(c)" -> node_type1c:a [arrowhead=none];
-    } 
+        node_type1a;
+        node_type1b;
+        node_type1c;
+   } 
 
     /* Conjugation 2*/
     subgraph "cluster2" {
         style=dashed;
         label="Conjugation 2";
         fontsize="26";
-        "2(a)" [shape=box arrowhead=none style=filled color="black" fillcolor="#009900"];
-        "2(b)" [shape=box arrowhead=none style=filled color="black" fillcolor="#00CC66"];
-        "2(c)" [shape=box arrowhead=none style=filled color="black" fillcolor="#66FF66"];
-        "2(a)" -> node_type2:a [arrowhead=none];
-        "2(b)" -> node_type2b:a [arrowhead=none];
-        "2(c)" -> node_type2c:a [arrowhead=none];
+        node_type2;
+        node_type2b;
+        node_type2c;
     }
 
     subgraph "conjugation" {
@@ -268,11 +260,9 @@ irregular</td></tr>
     }
 
     node_type1a -> conj1 [arrowhead=vee];
-    node_type1a:r -> conj2b [arrowhead=vee];
     node_type1b -> conj1b [arrowhead=vee];
     node_type1c -> conj1c [arrowhead=vee];
     node_type2 -> conj2 [arrowhead=vee];
     node_type2b -> conj2b [arrowhead=vee];
     node_type2c -> conj2 [arrowhead=vee];
-
 }
